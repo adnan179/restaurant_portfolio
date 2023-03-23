@@ -1,0 +1,56 @@
+.app__home{
+  width: 100%;
+  height: 700px;
+  background-color: aqua;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:url(../../assests/bg4.jpg) black no-repeat ;
+  background-size: cover;
+  
+}
+.app__home-greeting{
+  display: flex;
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 150px;
+}
+.app__home-button button{
+  width: auto;
+  height: auto;
+  padding: 13px;
+  font-size: 28px;
+  border: 3px lightyellow solid;
+  border-radius: 1rem;
+  color: lightyellow;
+  font-weight:500;
+  background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+.app__home-button button:hover{
+  background-color: black;
+  color: wheat;
+  border:2px white solid;
+  cursor: pointer;
+}
+.glow {
+  animation: glow 1.2s ease infinite;
+  -moz-animation: glow 1.2s ease infinite;
+  -webkit-animation: glow 1.2s ease infinite;
+}
+@keyframes glow {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1b1515, 0 0 3vw #1b1515, 0 0 10vw #1b1515, 0 0 10vw #1b1515, 0 0 .4vw #1b1515, .5vw .5vw .1vw yellow;
+    color: #fffefb;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #1b1515, 0 0 1.5vw #1b1515, 0 0 5vw #1b1515, 0 0 5vw #1b1515, 0 0 .2vw #1b1515, .5vw .5vw .1vw #1b1515;
+    color: #f9f8f4;
+  }
+}

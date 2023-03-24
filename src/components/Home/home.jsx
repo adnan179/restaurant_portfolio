@@ -8,7 +8,7 @@ const Home = () =>{
       </div>
       <div className='app__home-button'>
         <a href='#reverse' >
-          <button>Reverse a table</button>
+          <button>Reserve a table</button>
         </a>
       </div> 
     </section>
